@@ -1,0 +1,28 @@
+:root {
+    --shade-0: #012030;
+    --shade-1: #13678A;
+    --shade-2: #45C4B0;
+    --shade-3: #9AEBA3;
+    --shade-4: #DAFDBA;
+    --new-gray: #808080;
+    --new-white: #FFFFFF;
+}
+
+body {
+    background-color: var(--shade-4);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.42857143;
+    color: var(--shade-0);
+    padding: 0;
+    margin: 40;
+}
+
+.nav-links {
+    display: inline-block;
+}
+
+.logo {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.2em;
+}
